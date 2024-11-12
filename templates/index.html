@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>就是他</title>
+</head>
+<body>
+    <!-- 使用Flask的url_for函数来正确引用静态文件 -->
+    <img src="{{ url_for('static', filename='image/clownzhu.jpg') }}" alt="Image" style="width:auto;height:auto;">
+</body>
+</html>
